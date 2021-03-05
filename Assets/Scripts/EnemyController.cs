@@ -131,7 +131,7 @@ public class EnemyController : MonoBehaviour
         Destroy(exploder, 1);
 
         //[Example]
-        Destroy(gameObject);
+        Destroy(gameObject, .5f);
         //[End of Example]
 
         // decrease number of enemies
